@@ -22,26 +22,26 @@ No Squarespace pages, domain settings, or billing settings have been changed. We
 
 ## Homepage section map
 
-1. **Header:** HBC logo and name; About, Ministries, Events, Messages, Give; Plan Your Visit button. Use the native mobile menu. Use a transparent header over the opening photo if the header settings support the desired look.
+1. **Header:** HBC logo and name; About, Ministries, Events, Messages, Romans Road, Connect, Give; Plan Your Visit button. Use the native mobile menu. Use a transparent header over the opening photo if the header settings support the desired look.
 2. **Opening photo:** `assets/hillside-worship.jpg`, dark overlay, large two-line welcome, Visit and Messages buttons. This preview uses a still photo because HBC’s supplied material includes photography, not a confirmed hero video.
 3. **Sunday times:** Green section with Sunday School 9:15 AM and Worship 10:30 AM, plus directions. Arrange as columns on desktop and stacked blocks on phones.
 4. **Next steps:** Three image/link blocks: Visit, Connect, Serve. Use HBC gathering, Bible, and sound-board photos.
 5. **Mission:** Green two-column section; mission statement at left, short introduction and About link at right. The decorative oversized background word is optional.
 6. **Ministries:** Four linked text blocks for Children, Youth, Young Adults, and Adults. Use a two-by-two mobile layout or stacked list.
 7. **Messages:** Image and text side by side. Use native video blocks if an embedded player is preferred; otherwise link to the existing YouTube channel.
-8. **Weekly gatherings:** Four rows showing the recurring schedule. Keep the source of truth for changing events in the existing calendar.
+8. **Weekly gatherings:** Five rows showing the recurring schedule. Keep the source of truth for changing events in the existing calendar.
 9. **Visit invitation:** Address, directions, visit button, and HBC’s cross photo. The slight photo rotation is optional custom styling.
 10. **Footer:** Mission, service times, address, contact details, social links, prayer request, and giving.
 
 ## Supporting pages
 
-Use `about.html`, `ministries.html`, `events.html`, `messages.html`, and `visit.html` as visual and content references. Preserve existing Squarespace URLs where possible: `/about-us`, `/ministries`, `/events`, `/messages`, `/connect`, `/donate-1`, `/prayer-wall`, `/contact-us`, and `/romans-road`. Decide whether Visit replaces the Connect page layout or gets its own new page. Keep existing content and any necessary redirects before changing a URL.
+Use all twelve HTML pages as visual and content references. The full page-by-page mapping and preview adaptations are documented in `CONTENT-INVENTORY.md`. Preserve existing Squarespace URLs where possible: `/about-us`, `/ministries`, `/events`, `/messages`, `/connect`, `/donate-1`, `/prayer-wall`, `/contact-us`, and `/romans-road`. Decide whether Visit replaces the Connect page layout or gets its own new page. Keep existing content and any necessary redirects before changing a URL.
 
 ## Suggested implementation sequence
 
 1. Iterate on the GitHub preview until the design, wording, colors, and photo choices are approved.
 2. In Squarespace, duplicate the current homepage or create a draft page under Not Linked. Do the same for pages being redesigned. Not Linked only hides a page from navigation; use page access settings if a private preview is needed.
-3. Upload the five local photos from `assets/` or select the originals already in the Squarespace asset library. Retain the HBC logo after confirming the current preferred brand asset.
+3. Upload the eleven local photos from `assets/` or select the originals already in the Squarespace asset library. Retain the HBC logo after confirming the current preferred brand asset.
 4. Build the homepage sections with native blocks and set separate desktop/mobile layouts. Note that global Site Styles may affect the live website, so defer global changes until launch or use a separate staging site.
 5. Reuse existing giving, contact, prayer, media, and calendar services. Configure and test any native forms before replacing the current working forms. The GitHub mockup deliberately does not simulate successful form submission.
 6. Apply only scoped custom CSS for details native controls cannot match. Do not paste the complete `styles.css` into Squarespace: its global selectors target this standalone site. The mockup’s `script.js` menu is not needed when using Squarespace’s native header.
